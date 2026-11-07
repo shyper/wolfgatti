@@ -1,0 +1,25 @@
+{
+  "asset": "p052",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-5a91cc17-89cd-40b2-9853-469c7b022184.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p052.png",
+  "web": "packages/client/public/motifs/p052.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One manual wheelchair with a blue seat, two large rear wheels and two small front wheels.",
+  "review": "visually reviewed",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

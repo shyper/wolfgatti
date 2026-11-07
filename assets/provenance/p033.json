@@ -1,0 +1,25 @@
+{
+  "asset": "p033",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-529be3cd-e1d8-4c0f-abbd-22b8fc5a5e5a.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p033.png",
+  "web": "packages/client/public/motifs/p033.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One yellow construction hard hat with a short brim and raised crown ribs.",
+  "review": "visually reviewed",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

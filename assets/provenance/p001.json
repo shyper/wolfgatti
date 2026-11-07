@@ -1,0 +1,25 @@
+{
+  "asset": "p001",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-99374e62-8bc0-4d7b-93f6-1b8f6eaada27.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p001.png",
+  "web": "packages/client/public/motifs/p001.webp",
+  "masterSize": [
+    1312,
+    1199
+  ],
+  "webSize": [
+    768,
+    702
+  ],
+  "prompt": "Use case: illustration-story. Asset: one isolated motif for an original associative card game called Wolfgatti, a style study. Style: original hand-drawn ink and watercolor illustration, gently irregular dark charcoal outlines, restrained watercolor washes and subtle pigment granulation ONLY inside the subject, warm approachable editorial illustration, clear silhouette and readable at thumbnail size, moderate detail, no photorealism or 3D. Composition: a single complete subject centered on a square canvas with generous transparent padding. Genuine transparent alpha background. No paper backdrop, scenery, floor, cast shadow, frame, border, label, lettering, logo, watermark, or other objects. Do not imitate any existing game's artwork. Subject: one elegant red closed-toe women's pump, a single high-heeled shoe in clear side/three-quarter view, pointed toe, slim heel, rich vermilion red upper with restrained crimson watercolor shading, subtle dark sole and visible shoe opening. No foot, no second shoe, no ornament.",
+  "review": "approved style study adopted for production",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "wolfgatti-online",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/shared",
+    "packages/server",
+    "packages/client",
+    "tools"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w @wolfgatti/server",
+    "dev:client": "npm run dev -w @wolfgatti/client",
+    "build": "npm run assets:version && npm run build -w @wolfgatti/client && npm run build -w @wolfgatti/server",
+    "test": "vitest run",
+    "typecheck": "tsc -p packages/shared && tsc -p packages/server && tsc -p packages/client",
+    "i18n:check": "node tools/check-i18n.mjs",
+    "assets:check": "node tools/check-assets.mjs",
+    "assets:check:alpha": "python3 tools/check-assets.py",
+    "test:smoke": "node tools/smoke-game.mjs",
+    "assets:version": "node tools/write-artwork-versions.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "license": "MIT",
+  "description": "A cooperative museum card game with elephant painters, peacock curators and a wolf art forger.",
+  "engines": {
+    "node": ">=24"
+  }
+}

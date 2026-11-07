@@ -1,0 +1,296 @@
+{
+  "app": {
+    "title": "Wolfgatti",
+    "tagline": "Ein Museum voller überraschender Verbindungen",
+    "language": "Sprache",
+    "rules": "Regeln",
+    "leave": "Raum verlassen",
+    "connecting": "Verbinde …",
+    "reconnecting": "Verbindung unterbrochen – verbinde neu …",
+    "kicked": "Du wurdest aus dem Raum entfernt.",
+    "soundOn": "Töne einschalten",
+    "soundOff": "Töne ausschalten"
+  },
+  "home": {
+    "createTitle": "Neuen Raum erstellen",
+    "yourName": "Dein Name",
+    "namePlaceholder": "z. B. Anna",
+    "password": "Server-Passwort",
+    "create": "Raum erstellen",
+    "joinTitle": "Raum beitreten",
+    "codePlaceholder": "Raumcode",
+    "join": "Beitreten",
+    "intro": "Erstelle einen Raum und schicke deinen Freunden den Einladungslink. Ihr braucht 3 bis 7 Spieler. Für die Absprachen empfiehlt sich ein Sprachchat (z. B. Discord).",
+    "castTitle": "Das Museum stellt sich vor",
+    "paintersTitle": "Elefanten mit Ideen",
+    "paintersIntro": "Findet die Verbindung. Eure Bilder müssen für sich selbst sprechen.",
+    "curatorsTitle": "Pfaue mit Kunstverstand",
+    "curatorsIntro": "Erkennt die Ideen der Maler und haltet Wolfgattis Fälschungen aus der Ausstellung heraus."
+  },
+  "join": {
+    "title": "Raum {{code}} beitreten",
+    "submit": "Mitspielen",
+    "notFound": "Diesen Raum gibt es nicht (mehr).",
+    "backHome": "Zur Startseite"
+  },
+  "lobby": {
+    "title": "Lobby",
+    "invite": "Einladungslink",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "share": "Teilen",
+    "players": "Spieler ({{count}}/7)",
+    "spectators": "Zuschauer",
+    "start": "Spiel starten",
+    "needPlayers": "Ihr braucht 3–7 Spieler (aktuell {{count}}).",
+    "waitHost": "Warte, bis {{name}} das Spiel startet …",
+    "moveUp": "Nach oben",
+    "moveDown": "Nach unten",
+    "kick": "Entfernen",
+    "makeHost": "Zum Host machen",
+    "seatOrder": "Die Reihenfolge entspricht der Sitzordnung im Uhrzeigersinn.",
+    "rolesPreview": "Bei {{count}} Spielern: {{directors}} Kuratoren und {{painters}} Maler. Die Rollen wandern jede Runde einen Platz weiter.",
+    "spectatorNote": "Der Tisch ist voll oder das Spiel läuft schon – du schaust zu.",
+    "shuffle": "⇄ Reihenfolge mischen",
+    "difficulty": "Schwierigkeitsgrad",
+    "difficulty_normal": "Normal",
+    "difficulty_easy": "Einfach",
+    "difficulty_normal_desc": "Keine zusätzlichen Hinweise.",
+    "difficulty_easy_desc": "Beim Zuordnen werden die eingereichten Bilder je Thema gezählt angezeigt."
+  },
+  "role": {
+    "director": "Museumskurator",
+    "painter": "Maler",
+    "directorShort": "Pfau",
+    "painterShort": "Elefant",
+    "spectator": "Zuschauer"
+  },
+  "game": {
+    "round": "Runde {{round}}",
+    "team": "Team",
+    "wolfgatti": "Wolfgatti",
+    "pile": "Stapel",
+    "themeA": "Thema A",
+    "themeB": "Thema B",
+    "forgeries": "Fälschungen",
+    "unsorted": "Unsortiert",
+    "youAre": "Du bist {{role}}",
+    "phase": {
+      "request": {
+        "director": "Legt fest, wie viele Bilder die Maler insgesamt zu beiden Themen liefern sollen. Sprecht nur über die Anzahl, nicht über die Themen.",
+        "painter": "Die Kuratoren legen gerade fest, wie viele Bilder sie haben möchten.",
+        "spectator": "Die Kuratoren legen die Anzahl der Bilder fest."
+      },
+      "submit": {
+        "director": "Die Maler wählen ihre Bilder aus. Wolfgatti mischt danach vier Fälschungen darunter.",
+        "painter": "Wählt passende Handkarten und legt für jede fest, zu welchem Thema sie gehört. Sagt euch nur, ob eine Karte gut, mittelmäßig oder schlecht passt – nicht, was darauf zu sehen ist.",
+        "spectator": "Die Maler wählen ihre Bilder aus."
+      },
+      "sort": {
+        "director": "Ordnet jede Karte Thema A oder B zu und sortiert genau vier Fälschungen aus. Diskutiert offen!",
+        "painter": "Die Kuratoren sortieren. Keine Hinweise geben!",
+        "spectator": "Die Kuratoren sortieren die Bilder ins Museum."
+      },
+      "reveal": {
+        "director": "Auswertung: Welche Bilder waren echt?",
+        "painter": "Auswertung: Welche Bilder waren echt?",
+        "spectator": "Auswertung: Welche Bilder waren echt?"
+      }
+    },
+    "chooseCount": "Wie viele Bilder sollen die Maler liefern?",
+    "confirmCount": "{{count}} Bilder anfordern",
+    "required": "Gefordert: {{count}} Bilder",
+    "selectedTotal": "Ausgewählt: {{selected}} von {{required}}",
+    "yourHand": "Deine Handkarten",
+    "yourHandLater": "Deine Handkarten (für spätere Runden)",
+    "ready": "Fertig",
+    "notReady": "Doch nicht fertig",
+    "readyMark": "fertig",
+    "choosing": "wählt …",
+    "picks_one": "{{count}} Karte",
+    "picks_other": "{{count}} Karten",
+    "confirmSort": "Museum bestücken",
+    "sortStatus": "{{placed}} von {{total}} zugeordnet · {{forgeries}}/4 Fälschungen",
+    "unassign": "Zurücklegen",
+    "outcome": {
+      "correct": "Richtig! +1",
+      "wrongTheme": "Falsches Thema",
+      "rejectedPainting": "Echtes Bild aussortiert",
+      "forgeryAccepted": "Fälschung! +1 Wolfgatti",
+      "forgeryRejected": "Fälschung erkannt"
+    },
+    "by": "von {{name}}",
+    "forgeryBy": "Wolfgattis Fälschung",
+    "intended": "gedacht für {{theme}}",
+    "summary": "Team +{{team}} · Wolfgatti +{{wolfgatti}}",
+    "perfect": "Perfekte Runde!",
+    "recovered": "Hilfskarte „{{helper}}“ ist wieder verfügbar.",
+    "nextRound": "Nächste Runde",
+    "toResult": "Zum Ergebnis",
+    "askMode": "Tippe die Karte an, die ihr abfragen wollt.",
+    "askAnswer": "{{name}}: {{answer}}",
+    "cancel": "Abbrechen",
+    "swapHandMode": "Wähle {{count}} Handkarten zum Tauschen.",
+    "swapHandConfirm": "{{selected}}/{{count}} tauschen",
+    "zoom": "Vergrößern",
+    "watching": "Du schaust zu.",
+    "howTo": "Wie wähle ich Karten?",
+    "themeCounts": "Eingereichte Bilder: Thema A: {{A}} · Thema B: {{B}}",
+    "cardAssignment": "Zuordnung für Bild {{card}}",
+    "cardBack": "Kartenrückseite"
+  },
+  "helper": {
+    "title": "Hilfskarten",
+    "use": "Einsetzen",
+    "used": "Benutzt – kommt nach einer perfekten Runde mit {{number}} Bildern zurück",
+    "which": "Welche Themenkarte soll getauscht werden?",
+    "both": "Beide",
+    "plus": "+1 Bild",
+    "minus": "−1 Bild",
+    "swapThemes": {
+      "name": "Themenkarten tauschen",
+      "desc": "Museum, vor dem Anfordern: eine oder beide Themenkarten durch neue ersetzen."
+    },
+    "ask": {
+      "name": "Bilderkarte abfragen",
+      "desc": "Museum, beim Einsortieren: bei einer Karte fragen, ob sie von einem Maler stammt."
+    },
+    "plusMinus": {
+      "name": "Anzahl ±1",
+      "desc": "Maler, bevor jemand fertig ist: die geforderte Anzahl um 1 erhöhen oder senken."
+    },
+    "swapHand": {
+      "name": "Handkarten tauschen",
+      "desc": "Maler: 6 Handkarten gegen 6 neue vom Stapel tauschen."
+    }
+  },
+  "end": {
+    "won": "Gewonnen!",
+    "lost": "Wolfgatti gewinnt!",
+    "score": "{{score}} Punkte",
+    "reasonWolfgatti": "Wolfgatti hat mindestens 6 Fälschungen ins Museum geschmuggelt.",
+    "reasonPile": "Der Nachziehstapel ist aufgebraucht.",
+    "needed": "Zum Sieg braucht ihr mindestens 15 Punkte.",
+    "backToLobby": "Zurück zur Lobby",
+    "waitHost": "Der Host kann eine neue Partie starten.",
+    "abort": "Partie abbrechen",
+    "abortConfirm": "Partie wirklich abbrechen und zur Lobby zurückkehren?"
+  },
+  "rating": {
+    "r30": "Die goldene Ära des Museums",
+    "r25": "Eine außergewöhnliche Sammlung",
+    "r20": "Eine Galerie zum Vorzeigen",
+    "r15": "Die Ausstellung ist gerettet",
+    "r10": "Wolfgatti hat die Pfote vorn",
+    "r0": "Zeit für eine neue Leinwand"
+  },
+  "sidebar": {
+    "players": "Spieler",
+    "log": "Verlauf",
+    "claimSeat": "Platz übernehmen",
+    "offline": "offline",
+    "host": "Host",
+    "you": "du",
+    "cards_one": "{{count}} Karte",
+    "cards_other": "{{count}} Karten"
+  },
+  "rules": {
+    "title": "Kurzregeln",
+    "close": "Schließen",
+    "p1": "Gestaltet gemeinsam eine Ausstellung, während der gewitzte Wolf Wolfgatti Fälschungen einschmuggelt. Ihr seid abwechselnd Elefantenmaler und Pfaukuratoren. Nach jeder Runde wandern die Rollen einen Platz weiter.",
+    "p2": "Zwei aufgedeckte Bildkarten geben die Themen vor. Die Kuratoren bestellen insgesamt 2–7 Bilder für die Ausstellung. In diesem Moment dürft ihr nur über die Anzahl sprechen.",
+    "p3": "Die Maler wählen Handkarten und ordnen jede verdeckt einem Thema zu. Sprecht ab, wer wie viele Karten beisteuert. Ihr dürft die Stärke einer Verbindung nennen, aber niemals das abgebildete Motiv.",
+    "p4": "Vier zufällige Karten vom Stapel kommen als Wolfgattis Fälschungen dazu. Die Kuratoren besprechen die Bilder, ordnen die echten den Themen zu und weisen genau vier Karten zurück. Die Maler geben dabei keine Hinweise.",
+    "p5": "Ein echtes Bild bringt dem Team einen Punkt, wenn es beim richtigen Thema liegt. Jede angenommene Fälschung bringt Wolfgatti einen Punkt. Abgelehnte Bilder geben keiner Seite Punkte.",
+    "p6": "Die vier gemeinsamen Hilfen sind jeweils einmal einsetzbar. Liegen in einer Runde alle echten Bilder richtig, wird eine verbrauchte Hilfe zurückgewonnen, deren Zahl der angeforderten Bildanzahl entspricht.",
+    "p7": "Mit sechs Punkten für Wolfgatti endet die Ausstellung. Sie endet auch, wenn der Stapel keine weitere Runde ermöglicht. Ab 15 Teampunkten gewinnt ihr gemeinsam. Wie hoch schafft ihr es?",
+    "helpers": {
+      "usage": "Die vier Hilfskarten gehören dem gesamten Team. Jede Karte kann einmal eingesetzt werden und ist danach für alle verbraucht – auch in späteren Runden. Wird sie zurückgewonnen, kann sie erneut einmal eingesetzt werden. Die Rolle und die Spielphase bestimmen, wer sie nutzen darf. Verfügbare Karten werden im Spiel hervorgehoben.",
+      "swapThemes": "Kuratoren können vor dem Anfordern der Bilder eine oder beide Themenkarten durch neue vom Stapel ersetzen. Auch der Tausch beider Themen zählt als ein Einsatz.",
+      "swapHand": "Ein Maler kann während der Bildauswahl und vor seinem eigenen „Fertig“ genau {{count}} Handkarten gegen neue vom Stapel tauschen. Hat er weniger Karten, tauscht er alle. Bereits gewählte Karten, die getauscht werden, werden aus seiner Auswahl entfernt; alle Maler müssen anschließend erneut bestätigen.",
+      "plusMinus": "Die Maler können die insgesamt geforderte Bildanzahl um 1 erhöhen oder senken, solange noch kein Maler „Fertig“ ist. Dadurch sind auch {{min}} oder {{max}} Bilder möglich. Der Einsatz ändert die Anforderung für das gesamte Team.",
+      "ask": "Beim Zuordnen können die Kuratoren eine einzige ausgelegte Karte abfragen. Für jeden Maler wird angezeigt, ob die Karte von ihm stammt. Antworten alle mit Nein, ist sie eine Fälschung. Zu welchem Thema der Maler sie eingereicht hat, wird nicht verraten.",
+      "recoveryTitle": "Hilfskarten zurückgewinnen",
+      "recovery": "Eine Runde ist perfekt, wenn alle echten Bilder beim vorgesehenen Thema liegen und die vier Fälschungen aussortiert sind. Dann wird die bereits benutzte Hilfskarte wieder verfügbar, deren Zahl der geforderten Bildanzahl dieser Runde entspricht. Nach „Anzahl ±1“ zählt die angepasste Anzahl. Eine noch unbenutzte Karte erhält dadurch keinen zusätzlichen Einsatz.",
+      "example": "Beispiel: Eine perfekte Runde mit {{count}} angeforderten Bildern bringt die verbrauchte Karte „{{helper}}“ zurück. So kann eine Hilfskarte im Laufe einer Partie mehrfach zurückgewonnen werden."
+    }
+  },
+  "example": {
+    "title": "Beispiel: Welche Karten passen zum Thema?",
+    "intro": "Ein Thema ist der Ausgangspunkt einer Verbindung, keine Kategorie mit fester Lösung. Denkt an Formen, Farben, Verwendungen und gemeinsame Ideen. Gesucht ist eine Verbindung, die auch die Kuratoren entdecken können.",
+    "themeA": "Lorbeerkranz – denkbar: Sieg, Siegerehrung, Antike, Rom, Kopfschmuck, Blätter …",
+    "themeB": "Elefant – denkbar: groß, schwer, grau, Rüssel, Zoo, Afrika, Zirkus …",
+    "handTitle": "Ein Maler hat diese Karten auf der Hand:",
+    "verdict": {
+      "good": "Passt gut",
+      "ok": "Passt, mit einem Gedankenschritt",
+      "risky": "Riskant",
+      "no": "Passt nicht – nicht spielen"
+    },
+    "hand": {
+      "trophy": "Pokal → Thema A: Sieger bekommen Kranz und Pokal. Sehr eindeutig.",
+      "nose": "Nase → Thema B: Der Rüssel ist die Nase des Elefanten.",
+      "truck": "Lastwagen → Thema B: groß und schwer, wie ein Elefant.",
+      "italy": "Italien → Thema A: Lorbeerkranz → alte Römer → Italien. Gut, wenn das Museum mitdenkt.",
+      "mousetrap": "Mausefalle → Thema B: „Elefanten haben Angst vor Mäusen“ – witzig, aber das Museum könnte die Karte für eine Fälschung halten.",
+      "coffee": "Kaffeetasse: keine erkennbare Verbindung zu Kranz oder Elefant. Lieber auf der Hand behalten."
+    },
+    "museumTitle": "Was das Museum danach sieht",
+    "museumText": "Die Kuratoren sehen die Karten der Maler (z. B. Pokal, Nase, Lastwagen, Italien) gemischt mit vier zufälligen Fälschungen wie oben: Schere, Rose, Glühbirne, Wecker. Die meisten Fälschungen passen zu nichts – aber die Rose ist gefährlich: Blumen und Blätter könnten zum Kranz gehören. Bei so einer Karte hilft die Hilfskarte „Bilderkarte abfragen“.",
+    "tipsTitle": "Tipps",
+    "tip1": "Maler: Lieber wenige eindeutige Karten als viele vage. Jede Karte beim falschen Thema bringt nichts.",
+    "tip2": "Maler: Erlaubt ist „Ich habe eine sehr gute Karte für A“. Nicht erlaubt ist „Ich habe den Pokal“.",
+    "tip3": "Museum: Fragt euch bei jeder Karte: „Welche Idee könnte ein Maler dabei gehabt haben?“",
+    "tip4": "Museum: Fordert am Anfang lieber wenige Bilder an (2–4) und steigert euch, wenn es gut läuft."
+  },
+  "common": {
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "err": {
+    "playerCount": "Für ein Spiel braucht ihr {{min}}–{{max}} Spieler.",
+    "notSeated": "Du sitzt nicht am Tisch.",
+    "notDirector": "Das dürfen nur die Kuratoren.",
+    "notPainter": "Das dürfen nur die Maler.",
+    "wrongPhase": "Das geht gerade nicht.",
+    "helperUsed": "Diese Hilfskarte wurde schon benutzt.",
+    "pileTooSmall": "Dafür reicht der Nachziehstapel nicht mehr.",
+    "invalid": "Ungültige Eingabe.",
+    "invalidCount": "Die Anzahl muss zwischen {{min}} und {{max}} liegen.",
+    "notEnoughCards": "Die Maler haben zusammen nur {{available}} Handkarten.",
+    "adjustTooLate": "Die Anzahl kann nur geändert werden, bevor ein Maler fertig ist.",
+    "alreadyReady": "Du bist schon fertig.",
+    "swapCount": "Wähle genau {{count}} Karten.",
+    "notInHand": "Diese Karte ist nicht auf deiner Hand.",
+    "totalMismatch": "Gefordert sind {{required}} Bilder, ausgewählt sind {{selected}}.",
+    "notOnBoard": "Diese Karte liegt nicht aus.",
+    "sortIncomplete": "Ordnet erst alle Karten zu.",
+    "forgeryCount": "Sortiert genau {{count}} Fälschungen aus.",
+    "roomNotFound": "Diesen Raum gibt es nicht (mehr).",
+    "nameRequired": "Bitte gib einen Namen ein.",
+    "notHost": "Das darf nur der Host.",
+    "gameRunning": "Das Spiel läuft bereits.",
+    "seatTaken": "Dieser Spieler ist noch verbunden.",
+    "noGame": "Es läuft kein Spiel.",
+    "notInRoom": "Du bist in keinem Raum.",
+    "rateLimited": "Zu viele Anfragen – bitte kurz warten.",
+    "wrongPassword": "Falsches Server-Passwort.",
+    "server": "Serverfehler – bitte erneut versuchen.",
+    "connection": "Keine Verbindung zum Server.",
+    "playerOffline": "Offline-Spieler können nicht zum Host ernannt werden."
+  },
+  "log": {
+    "roundStart": "Runde {{round}} beginnt.",
+    "themesSwapped_one": "{{player}} hat eine Themenkarte getauscht.",
+    "themesSwapped_other": "{{player}} hat beide Themenkarten getauscht.",
+    "required": "{{player}} fordert {{count}} Bilder an.",
+    "adjusted": "{{player}} ändert die Anzahl von {{from}} auf {{to}}.",
+    "handSwapped": "{{player}} hat {{count}} Handkarten getauscht.",
+    "forged": "Wolfgatti hat {{count}} Fälschungen untergemischt.",
+    "asked": "{{player}} hat eine Karte abgefragt: {{answer}}.",
+    "sorted": "{{player}} hat das Museum bestückt.",
+    "result": "Ergebnis: Team +{{team}}, Wolfgatti +{{wolfgatti}}.",
+    "recovered": "Hilfskarte „{{helper}}“ ist zurück.",
+    "gameOver": "Spielende mit {{score}} Punkten."
+  }
+}

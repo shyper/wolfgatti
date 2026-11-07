@@ -1,0 +1,25 @@
+{
+  "asset": "p010",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-850c9c06-4099-4988-ac27-bf1156b789bc.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p010.png",
+  "web": "packages/client/public/motifs/p010.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: precise-object-edit. Revise this elephant illustration for an associative card game. The current elephant is too naturalistic, too densely textured and too wrinkled. Redraw the same subject as a simpler, friendly hand-drawn ink-and-watercolor motif: clean gently irregular dark outlines, broad restrained light gray watercolor washes, just a few deliberate folds, simplified rounded forms and a strong easily recognizable silhouette at small card size. Medium-light neutral gray, subtle pink inner ear, small natural dark eye. Keep it recognizably an ordinary adult elephant with natural but gently simplified proportions, full body, four coherent legs, large ears and gently upcurved trunk. Avoid baby mascot proportions, oversized eyes, costumes, props, photorealistic anatomy studies, dense wrinkles and granular skin rendering. Single centered complete elephant with comfortable padding, genuine transparent alpha outside the animal, no background, paper rectangle, floor, cast shadow, frame, border, lettering, watermark or additional objects. Watercolor texture only within colored areas; the visual emphasis should be confident ink lines and uncomplicated painted shapes.",
+  "review": "approved style study adopted for production",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

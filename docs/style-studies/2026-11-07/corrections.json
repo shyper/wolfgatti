@@ -1,0 +1,42 @@
+[
+  {
+    "name": "cactus-v2",
+    "prompt": "Use case: background-extraction. Edit this single supplied illustration. Remove the ENTIRE soft colored background halo/glow surrounding the subject and inside all negative spaces. The requested output is a clean cutout with genuinely transparent alpha everywhere beyond the ink silhouette, no opaque or semitransparent colored haze, no drop shadow, no floor, no background. Preserve the complete subject, its watercolor colors, dark ink outline, composition, proportions, and details. Keep all canvas margins transparent. Do not add any props, frame, lettering, or paper background. Additionally remove the eyes, eyebrows, and smiling mouth from the cactus. Repaint those areas as uninterrupted green cactus skin and vertical ribs. It must be an ordinary plant with NO face or anthropomorphic features. Keep its two arms, spines and green watercolor silhouette.",
+    "tool": "built-in image_gen",
+    "date": "2026-11-07",
+    "status": "alternative draft; not user-approved",
+    "generatedFile": "exec-2accc9b6-2d0b-45f0-987a-03cf182120fa.png"
+  },
+  {
+    "name": "bicycle-v2",
+    "prompt": "Use case: background-extraction. Edit this single supplied illustration. Remove the ENTIRE soft colored background halo/glow surrounding the subject and inside all negative spaces. The requested output is a clean cutout with genuinely transparent alpha everywhere beyond the ink silhouette, no opaque or semitransparent colored haze, no drop shadow, no floor, no background. Preserve the complete subject, its watercolor colors, dark ink outline, composition, proportions, and details. Keep all canvas margins transparent. Do not add any props, frame, lettering, or paper background.",
+    "tool": "built-in image_gen",
+    "date": "2026-11-07",
+    "status": "alternative draft; not user-approved",
+    "generatedFile": "exec-1bf7290f-d056-4d8d-b30b-3c8e38036901.png"
+  },
+  {
+    "name": "bee-v2",
+    "prompt": "Use case: background-extraction. Edit this single supplied illustration. Remove the ENTIRE soft colored background halo/glow surrounding the subject and inside all negative spaces. The requested output is a clean cutout with genuinely transparent alpha everywhere beyond the ink silhouette, no opaque or semitransparent colored haze, no drop shadow, no floor, no background. Preserve the complete subject, its watercolor colors, dark ink outline, composition, proportions, and details. Keep all canvas margins transparent. Do not add any props, frame, lettering, or paper background. Additionally remove the human-style smiling mouth and eyebrow. Use a small natural insect eye, retain a friendly simplified insect illustration with antennae, wings and six legs, without human facial features.",
+    "tool": "built-in image_gen",
+    "date": "2026-11-07",
+    "status": "alternative draft; not user-approved",
+    "generatedFile": "exec-88bfce0a-ba5a-4af8-9f1e-ac2f7e574346.png"
+  },
+  {
+    "name": "curator-peacock-v2",
+    "prompt": "Use case: background-extraction. Edit this single supplied illustration. Remove the ENTIRE soft colored background halo/glow surrounding the subject and inside all negative spaces. The requested output is a clean cutout with genuinely transparent alpha everywhere beyond the ink silhouette, no opaque or semitransparent colored haze, no drop shadow, no floor, no background. Preserve the complete subject, its watercolor colors, dark ink outline, composition, proportions, and details. Keep all canvas margins transparent. Do not add any props, frame, lettering, or paper background.",
+    "tool": "built-in image_gen",
+    "date": "2026-11-07",
+    "status": "alternative draft; not user-approved",
+    "generatedFile": "exec-f2ed7496-4805-4268-b368-be7f40151764.png"
+  },
+  {
+    "name": "wolfgatti-wolf-v2",
+    "prompt": "Use case: background-extraction. Edit this single supplied illustration. Remove the ENTIRE soft colored background halo/glow surrounding the subject and inside all negative spaces. The requested output is a clean cutout with genuinely transparent alpha everywhere beyond the ink silhouette, no opaque or semitransparent colored haze, no drop shadow, no floor, no background. Preserve the complete subject, its watercolor colors, dark ink outline, composition, proportions, and details. Keep all canvas margins transparent. Do not add any props, frame, lettering, or paper background.",
+    "tool": "built-in image_gen",
+    "date": "2026-11-07",
+    "status": "alternative draft; not user-approved",
+    "generatedFile": "exec-3763a13e-b74d-40af-a1e8-d09878fc2915.png"
+  }
+]

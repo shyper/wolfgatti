@@ -1,0 +1,23 @@
+{
+  "asset": "card-background-canvas-v1",
+  "kind": "card-background",
+  "tool": "OpenAI built-in image_gen",
+  "date": "2026-11-07",
+  "generatedFile": "exec-0edb0c63-8d35-4983-9045-4e8815096332.png",
+  "master": "assets/masters/card-background-canvas-v1.png",
+  "web": "packages/client/public/card-backgrounds/canvas-brushed-v1.webp",
+  "masterSize": [
+    1004,
+    1567
+  ],
+  "webSize": [
+    750,
+    1170
+  ],
+  "prompt": "Use case: precise-object-edit. Edit the latest approved unframed canvas preview. Remove ONLY the red shoe, seamlessly continuing the existing warm ivory and pale ochre broad diagonal painted brushstrokes into its former area. Preserve the entire canvas silhouette, softly wrapped corners, narrow right/bottom side depth, colors and existing background brushwork. No fabric weave or woven texture anywhere, no frame, no border, no new objects, no text. Front remains opaque painted surface; genuine transparent alpha outside the silhouette. Retain identical tall portrait proportions and slim margins. Reusable empty background for separate transparent game motifs.",
+  "references": [
+    "assets/masters/card-background-canvas-preview-v1.png"
+  ],
+  "license": "MIT, to the extent rights can be granted",
+  "review": "owner-selected canvas design without fabric weave; empty export visually inspected"
+}

@@ -1,0 +1,25 @@
+{
+  "asset": "p054",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-2accc9b6-2d0b-45f0-987a-03cf182120fa.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p054.png",
+  "web": "packages/client/public/motifs/p054.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: background-extraction. Edit this single supplied illustration. Remove the ENTIRE soft colored background halo/glow surrounding the subject and inside all negative spaces. The requested output is a clean cutout with genuinely transparent alpha everywhere beyond the ink silhouette, no opaque or semitransparent colored haze, no drop shadow, no floor, no background. Preserve the complete subject, its watercolor colors, dark ink outline, composition, proportions, and details. Keep all canvas margins transparent. Do not add any props, frame, lettering, or paper background. Additionally remove the eyes, eyebrows, and smiling mouth from the cactus. Repaint those areas as uninterrupted green cactus skin and vertical ribs. It must be an ordinary plant with NO face or anthropomorphic features. Keep its two arms, spines and green watercolor silhouette.",
+  "review": "approved style study adopted for production",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

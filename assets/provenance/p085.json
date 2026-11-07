@@ -1,0 +1,25 @@
+{
+  "asset": "p085",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-95864aa9-f853-4be6-a33a-f7bf3658bca4.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p085.png",
+  "web": "packages/client/public/motifs/p085.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One reddish-brown wooden toy rocking horse mounted on two curved rockers.",
+  "review": "visually reviewed against the motif catalog",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

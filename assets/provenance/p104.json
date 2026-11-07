@@ -1,0 +1,25 @@
+{
+  "asset": "p104",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-e6b88941-10d3-4fa1-ad2b-9002f3d7df6e.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p104.png",
+  "web": "packages/client/public/motifs/p104.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One closed arched brown plank door with a dark handle and small visible hinges.",
+  "review": "visually reviewed",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset": "p073",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-b4e84f5f-83fd-4758-a8bb-f5c1798be858.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/variants/p073-v1.png",
+  "web": "assets/variants/p073-v1.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One radial starburst crack in a small isolated piece of otherwise transparent glass, with a dark impact center.",
+  "review": "visually reviewed against the motif catalog",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  },
+  "supersededBy": "assets/provenance/p073.json"
+}

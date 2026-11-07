@@ -1,0 +1,24 @@
+{
+  "asset": "card-background-wood-v2",
+  "kind": "card-background",
+  "tool": "OpenAI built-in image_gen",
+  "date": "2026-11-07",
+  "master": "assets/masters/card-background-wood-v2.png",
+  "masterSize": [
+    1004,
+    1567
+  ],
+  "generatedFile": "exec-62adbf97-abf1-44a4-8bcc-33c5e51a80d0.png",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the wooden frame of this empty portrait card background. Keep the existing warm ivory/buttery-ochre hastily brushed painted interior and its brushstroke texture, colors and overall character unchanged. Make the wood frame moderately THICKER, about 1.5 times the current rail width, and moderately DARKER, a warm medium-dark walnut/chestnut brown instead of light orange pine. Keep visible hand-drawn wood grain, mitred corners, gentle irregular dark ink outlines and the same original watercolor/gouache illustration style. Not black or nearly black: retain warm readable brown wood and natural tonal variation. Preserve the outer portrait format and straight-on flat view. Expand the thicker rails inward, so the outer dimensions remain the same. The painted interior remains empty and light, with the same loose quick brushwork. No nail, hook, wire, wall, motif, text, logo, ornate carving or cast shadow. Genuine transparent alpha outside the wooden outline. Everything apart from the wood frame should remain as in the supplied background.",
+  "license": "MIT, to the extent rights can be granted",
+  "review": "owner-approved wooden frame and brushed background",
+  "web": "packages/client/public/card-backgrounds/wood-brushed-v2.webp",
+  "webSize": [
+    750,
+    1170
+  ],
+  "references": [
+    "assets/masters/card-background-wood-v1.png"
+  ],
+  "ownerApprovalDate": "2026-11-07"
+}

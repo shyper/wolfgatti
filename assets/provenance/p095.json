@@ -1,0 +1,25 @@
+{
+  "asset": "p095",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-70982f87-2d4f-4997-b884-01b643a6cfd1.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p095.png",
+  "web": "packages/client/public/motifs/p095.webp",
+  "masterSize": [
+    1199,
+    1312
+  ],
+  "webSize": [
+    702,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One freestanding pinball machine with a colorful sloped playfield, upright backboard and four dark legs.",
+  "review": "visually reviewed",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

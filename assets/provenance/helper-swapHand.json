@@ -1,0 +1,24 @@
+{
+  "asset": "helper-swapHand",
+  "kind": "helper",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-09e82da3-23dd-4722-ac97-ef3dc8a1dc0b.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/helper-swapHand.png",
+  "web": "packages/client/public/cards/helper-swapHand.webp",
+  "masterSize": [
+    1536,
+    1024
+  ],
+  "webSize": [
+    768,
+    512
+  ],
+  "prompt": "Use case: precise-object-edit. Make a matching 'swap hand cards' helper card. Image 1 is the approved helper card design: preserve its warm yellow folder, blank cream top label, paper texture, subtle watercolor tonal variation, tidy softly hand-drawn outline without harsh chips or fraying, right paper stack and metal paperclip, landscape 3:2 composition and margins. Replace ONLY the left action icon and portrait identity. Left: a clearly drawn human hand in a cream artist's sleeve holding a fan of SIX small blank off-white cards, simple recognizable silhouette, ink outlines, watercolor shading. Right: grayscale ink/watercolor bust portrait of the painter ELEPHANT from image 2, with big ears, friendly face, raised curved trunk, artist beret and neck bow, occupying the same portrait area as the original peacock. Keep elephant recognizable, no peacock features. No extra symbols, no text or numbers. Entire card visible; genuine transparent alpha outside folder, no colored external backdrop or drop shadow.",
+  "review": "visually inspected; owner-approved style, individual card awaiting owner review",
+  "references": [
+    "assets/masters/helper-swapThemes.png",
+    "assets/masters/painter-elephant.png"
+  ]
+}

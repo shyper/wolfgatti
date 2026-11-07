@@ -1,0 +1,25 @@
+{
+  "asset": "painter-elephant",
+  "kind": "character",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-27bfeeba-021e-4d07-9584-b1c8363aa67c.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/painter-elephant.png",
+  "web": "packages/client/public/characters/painter-elephant.webp",
+  "masterSize": [
+    1199,
+    1312
+  ],
+  "webSize": [
+    702,
+    768
+  ],
+  "prompt": "Use case: illustration-story. Create one original illustration for the associative game Wolfgatti. Input images are approved ORIGINAL Wolfgatti STYLE REFERENCES ONLY, not subjects to combine. Match their hand-drawn dark gently irregular ink contours, restrained watercolor washes, subtle pigment texture within colored shapes, warm approachable visual character and strong silhouette at small card size. Animals have the simplified friendly forms and minimal folds of the reference elephant, NOT naturalistic dense skin/fur rendering. Single complete centered subject with comfortable transparent padding. Genuine transparent alpha background including internal openings; no frame, background, floor, cast shadow, paper rectangle, lettering, watermark, or logo. No photorealism, 3D, scenery, or unrelated objects. SUBJECT: one anthropomorphic gray elephant painter standing upright, full body. Simplified friendly rounded elephant forms, big ears, a long curved trunk and a small natural eye. Classic artist attire: dark beret and loose cream painter's smock with a few small paint marks. Holding one wooden artist palette and a single paintbrush using hands. Good coherent anatomy, warm charming expression. Limited gray, cream and muted blue colors with small paint color accents. No easel, canvas or additional characters.",
+  "review": "approved style study adopted for production",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

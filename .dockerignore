@@ -1,0 +1,23 @@
+# Whitelist: only what the build needs goes into the context.
+*
+!package.json
+!package-lock.json
+!tsconfig.base.json
+!packages/shared/package.json
+!packages/shared/tsconfig.json
+!packages/shared/src
+!packages/server/package.json
+!packages/server/tsconfig.json
+!packages/server/src
+!packages/client/package.json
+!packages/client/tsconfig.json
+!packages/client/index.html
+!packages/client/vite.config.ts
+!packages/client/src
+!packages/client/public
+!tools/package.json
+!tools/*.mjs
+
+!vitest.config.ts
+!LICENSE
+!THIRD_PARTY_NOTICES.md

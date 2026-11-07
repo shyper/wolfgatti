@@ -1,0 +1,24 @@
+{
+  "asset": "helper-swapThemes",
+  "kind": "helper",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-07ab33c2-1cb9-4d0a-b5e7-4468d98765e4.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/helper-swapThemes.png",
+  "web": "packages/client/public/cards/helper-swapThemes.webp",
+  "masterSize": [
+    1536,
+    1024
+  ],
+  "webSize": [
+    768,
+    512
+  ],
+  "prompt": "Use case: precise-object-edit. Refine ONLY the yellow manila folder of the latest Wolfgatti swap-themes helper card preview. Find a tasteful middle ground between perfectly sterile/new and heavily distressed/old: a well-kept folder with charming handmade character and only very gentle use. Keep its silhouette intact, rounded and tidy, but give the thin dark ink outline small natural hand-drawn variations in thickness and very slight organic waviness. Add soft uneven watercolor washes in warm pale yellow/ochre, gentle darker pigment pooling near a few edges, subtle tonal variation and two or three tiny faint handling marks. The overall paper must remain light, fresh and inviting. No fraying, tears, chips, scratches, dirty dark border, heavy staining, grunge or antique patina. Avoid geometrically perfect vector edges and flat uniform fills. Preserve the existing exact composition and all other elements: the two wooden frames, both curved swap arrows, empty cream label, grayscale peacock curator portrait, paper stack and paperclip. Retain the ink-and-watercolor board-game illustration style. Full landscape card visible, slim margins, real transparent alpha outside the folder silhouette, no background or external vignette, no text.",
+  "review": "owner-approved style prototype",
+  "references": [
+    "packages/client/public/characters/curator-peacock.webp"
+  ],
+  "referenceNote": "Initial study used the private original helper as a layout reference; retained prompt records the accepted folder refinement."
+}

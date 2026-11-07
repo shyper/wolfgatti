@@ -1,0 +1,25 @@
+{
+  "asset": "p112",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-341bb489-48ef-47e1-b8f4-611b55cd0866.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p112.png",
+  "web": "packages/client/public/motifs/p112.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: illustration-story. Asset: one isolated motif for an original associative card game called Wolfgatti, a style study. Style: original hand-drawn ink and watercolor illustration, gently irregular dark charcoal outlines, restrained watercolor washes and subtle pigment granulation ONLY inside the subject, warm approachable editorial illustration, clear silhouette and readable at thumbnail size, moderate detail, no photorealism or 3D. Composition: a single complete subject centered on a square canvas with generous transparent padding. Genuine transparent alpha background. No paper backdrop, scenery, floor, cast shadow, frame, border, label, lettering, logo, watermark, or other objects. Do not imitate any existing game's artwork. Subject: one simple old-fashioned brass door key with a round open bow, a straight shaft and a few distinct teeth, placed diagonally, warm golden ochre brass with restrained hand-painted shading. One key only, no key ring.",
+  "review": "approved style study adopted for production",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

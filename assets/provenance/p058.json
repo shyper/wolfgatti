@@ -1,0 +1,34 @@
+{
+  "asset": "p058",
+  "kind": "motif",
+  "tool": "Pillow rigid-layer composition (user-approved geometric editing)",
+  "generatedFile": "p058-geometric.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p058.png",
+  "web": "packages/client/public/motifs/p058.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "User-approved geometric edit: separate the two skis from the first generated version into complete layers; rotate them by opposite 10-degree angles and overlap at 30 percent of their length, preserving their shape, paint and bindings without repainting or scaling.",
+  "review": "owner-approved geometric composition",
+  "references": [
+    "assets/variants/p058-v1.png"
+  ],
+  "transform": {
+    "script": "tools/recompose-skis.py",
+    "layerRotationsDegrees": [
+      10,
+      -10
+    ],
+    "crossingFractionFromTop": 0.3,
+    "scaling": "none",
+    "resampling": "BICUBIC with premultiplied alpha"
+  },
+  "ownerApprovalDate": "2026-11-07"
+}

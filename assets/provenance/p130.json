@@ -1,0 +1,25 @@
+{
+  "asset": "p130",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-676c662a-6a2b-4822-8298-8b0a9a647d6c.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p130.png",
+  "web": "packages/client/public/motifs/p130.webp",
+  "masterSize": [
+    1199,
+    1312
+  ],
+  "webSize": [
+    702,
+    768
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One simple brown wooden swing seat suspended from two long ropes.",
+  "review": "Visually inspected: correct catalog subject, full silhouette, approved ink/watercolor style.",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

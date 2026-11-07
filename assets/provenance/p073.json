@@ -1,0 +1,24 @@
+{
+  "asset": "p073",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-863b23b4-56d0-43dd-9e27-c5e61e7b16d2.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p073.png",
+  "web": "packages/client/public/motifs/p073.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: precise-object-edit. Edit this original Wolfgatti card illustration. Keep ONLY a black impact hole with an irregular dark charcoal ink center and a few thin radiating cracks. Completely remove the blue glass area, every glass shard, the outer glass silhouette, and all pale white/blue glass reflections. The negative spaces between the crack lines must be fully transparent, all the way to the canvas edge. No visible pane, disc, fragment, border, backdrop or material surrounding the hole. This is a small physical puncture/impact mark, NOT an astronomical black hole. Use a hand-drawn dark ink and restrained charcoal watercolor appearance matching the existing lines, with a substantial ragged black center, short jagged rays and only minimal branching. One centered complete impact mark with generous transparent padding. Genuine alpha transparency everywhere except the dark hole and its crack lines. No text, frame, logos, shadows or additional objects.",
+  "review": "visually reviewed after user-requested revision",
+  "references": [
+    "assets/variants/p073-v1.png"
+  ],
+  "revisionReason": "User requested only the black impact hole and cracks, without visible glass or shards."
+}

@@ -1,0 +1,23 @@
+{
+  "asset": "helper-swapHand-back",
+  "kind": "helper",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-cefaf374-bd48-44df-8f9e-8c30302b4089.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/helper-swapHand-back.png",
+  "web": "packages/client/public/cards/helper-swapHand-back.webp",
+  "masterSize": [
+    1536,
+    1024
+  ],
+  "webSize": [
+    768,
+    512
+  ],
+  "prompt": "Use case: precise-object-edit. Edit ONLY the big black brush numeral on the provided gray helper-card reverse. Replace the '6' with ONE huge black hand-painted numeral '4', centered and similarly sized, with lively brush texture and excellent readability at thumbnail scale. Preserve the exact gray watercolor folder, subtle paper texture, softly drawn intact edges, upper-right tab, composition, landscape 3:2 proportions and transparent exterior. No portrait, no label, no additional symbols or text, no colored backdrop, no shadow, no new distressing or notches. Genuine transparent alpha outside the folder silhouette.",
+  "review": "visually inspected; owner-approved style, individual card awaiting owner review",
+  "references": [
+    "assets/masters/helper-ask-back.png"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@wolfgatti/tools",
+  "private": true,
+  "type": "module",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+# Local helper files
+/.work/
+/.agents/
+/.aws/
+/.codex/
+
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.*
+!.env.example
+.test-data/
+
+# Local room snapshots and package cache
+/data/
+/packages/server/data/
+/.npm/

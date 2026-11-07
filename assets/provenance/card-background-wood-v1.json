@@ -1,0 +1,15 @@
+{
+  "asset": "card-background-wood-v1",
+  "kind": "card-background",
+  "tool": "OpenAI built-in image_gen",
+  "date": "2026-11-07",
+  "master": "assets/masters/card-background-wood-v1.png",
+  "masterSize": [
+    1004,
+    1566
+  ],
+  "generatedFile": "exec-eed9f677-1f63-45ff-99c7-471351465eba.png",
+  "prompt": "Use case: illustration-story. Asset: ONE EMPTY reusable background for portrait cards in the original game Wolfgatti. Portrait format, target aspect ratio 375:585. Straight-on flat front view, perfectly vertical sides and horizontal top/bottom, no perspective. A simple hand-illustrated medium warm brown WOODEN picture frame with mitred corners, visible restrained wood grain, dark gently irregular ink contours and watercolor/gouache shading. Modest frame thickness, about 5 percent of card width on each side. No golden metal or ornate decoration. Inside the wooden frame: an EMPTY pale warm ivory and buttery ochre painted surface, as if someone quickly brushed on a loose coat of paint with a broad brush. Visible overlapping quick brushstrokes, subtle uneven coverage, soft dry-brush streaks and imperfect painted texture; light and calm enough for colorful transparent object illustrations to be layered over it later. Not a regular fabric weave or grid. The interior is fully painted and opaque; keep it empty with NO depicted objects or central motif. Frame nearly fills the portrait image with a small clean transparent outer margin; outside the wooden outline is genuinely transparent alpha. No nail, hook, hanging wire, wall, easel, cast shadow, lettering, label, logo or watermark. Show just the empty wooden frame and lightly brushed painted interior. Original charming hand-drawn ink-and-watercolor style, clear at small game-card size.",
+  "license": "MIT, to the extent rights can be granted",
+  "review": "painted background approved; frame superseded by thicker, darker study"
+}

@@ -1,0 +1,296 @@
+{
+  "app": {
+    "title": "Wolfgatti",
+    "tagline": "A museum of clever connections",
+    "language": "Language",
+    "rules": "Rules",
+    "leave": "Leave room",
+    "connecting": "Connecting …",
+    "reconnecting": "Connection lost – reconnecting …",
+    "kicked": "You were removed from the room.",
+    "soundOn": "Turn sounds on",
+    "soundOff": "Turn sounds off"
+  },
+  "home": {
+    "createTitle": "Create a new room",
+    "yourName": "Your name",
+    "namePlaceholder": "e.g. Anna",
+    "password": "Server password",
+    "create": "Create room",
+    "joinTitle": "Join a room",
+    "codePlaceholder": "Room code",
+    "join": "Join",
+    "intro": "Create a room and send your friends the invite link. You need 3 to 7 players. A voice chat (e.g. Discord) works best for talking things over.",
+    "castTitle": "Meet the museum",
+    "paintersTitle": "Elephants with ideas",
+    "paintersIntro": "Find the connection. Your paintings must speak for themselves.",
+    "curatorsTitle": "Peacocks with an eye for art",
+    "curatorsIntro": "Follow the painters’ ideas and keep Wolfgatti’s fakes out of the exhibition."
+  },
+  "join": {
+    "title": "Join room {{code}}",
+    "submit": "Join game",
+    "notFound": "This room does not exist (anymore).",
+    "backHome": "Back to start"
+  },
+  "lobby": {
+    "title": "Lobby",
+    "invite": "Invite link",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "share": "Share",
+    "players": "Players ({{count}}/7)",
+    "spectators": "Spectators",
+    "start": "Start game",
+    "needPlayers": "You need 3–7 players (currently {{count}}).",
+    "waitHost": "Waiting for {{name}} to start the game …",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "kick": "Remove",
+    "makeHost": "Make host",
+    "seatOrder": "The order is the clockwise seating order.",
+    "rolesPreview": "With {{count}} players — curators: {{directors}}, painters: {{painters}}. Roles move one seat each round.",
+    "spectatorNote": "The table is full or the game has started – you are watching.",
+    "shuffle": "⇄ Shuffle player order",
+    "difficulty": "Difficulty",
+    "difficulty_normal": "Normal",
+    "difficulty_easy": "Easy",
+    "difficulty_normal_desc": "No extra hints.",
+    "difficulty_easy_desc": "Sorting shows how many paintings were submitted for each theme."
+  },
+  "role": {
+    "director": "Museum curator",
+    "painter": "Painter",
+    "directorShort": "Peacock",
+    "painterShort": "Elephant",
+    "spectator": "Spectator"
+  },
+  "game": {
+    "round": "Round {{round}}",
+    "team": "Team",
+    "wolfgatti": "Wolfgatti",
+    "pile": "Pile",
+    "themeA": "Theme A",
+    "themeB": "Theme B",
+    "forgeries": "Forgeries",
+    "unsorted": "Unsorted",
+    "youAre": "You are {{role}}",
+    "phase": {
+      "request": {
+        "director": "Decide how many pictures the painters must deliver for both themes in total. Only talk about the number, not about the themes.",
+        "painter": "The curators are deciding how many pictures they want.",
+        "spectator": "The curators are choosing the number of pictures."
+      },
+      "submit": {
+        "director": "The painters are choosing their pictures. Wolfgatti will then mix in four forgeries.",
+        "painter": "Pick fitting hand cards and assign each one to a theme. Only tell each other whether a card fits well, okay or badly – never what it shows.",
+        "spectator": "The painters are choosing their pictures."
+      },
+      "sort": {
+        "director": "Assign every card to theme A or B and set aside exactly four forgeries. Discuss openly!",
+        "painter": "The curators are sorting. No hints!",
+        "spectator": "The curators are hanging the pictures."
+      },
+      "reveal": {
+        "director": "Scoring: which pictures were genuine?",
+        "painter": "Scoring: which pictures were genuine?",
+        "spectator": "Scoring: which pictures were genuine?"
+      }
+    },
+    "chooseCount": "How many pictures should the painters deliver?",
+    "confirmCount": "Request {{count}} pictures",
+    "required": "Requested: {{count}} pictures",
+    "selectedTotal": "Selected: {{selected}} of {{required}}",
+    "yourHand": "Your hand",
+    "yourHandLater": "Your hand (for later rounds)",
+    "ready": "Done",
+    "notReady": "Not done yet",
+    "readyMark": "done",
+    "choosing": "choosing …",
+    "picks_one": "{{count}} card",
+    "picks_other": "{{count}} cards",
+    "confirmSort": "Hang the exhibition",
+    "sortStatus": "{{placed}} of {{total}} assigned · {{forgeries}}/4 forgeries",
+    "unassign": "Put back",
+    "outcome": {
+      "correct": "Correct! +1",
+      "wrongTheme": "Wrong theme",
+      "rejectedPainting": "Genuine picture rejected",
+      "forgeryAccepted": "Forgery! +1 Wolfgatti",
+      "forgeryRejected": "Forgery spotted"
+    },
+    "by": "by {{name}}",
+    "forgeryBy": "Wolfgatti's forgery",
+    "intended": "meant for {{theme}}",
+    "summary": "Team +{{team}} · Wolfgatti +{{wolfgatti}}",
+    "perfect": "Perfect round!",
+    "recovered": "Helper card “{{helper}}” is available again.",
+    "nextRound": "Next round",
+    "toResult": "See result",
+    "askMode": "Tap the card you want to ask about.",
+    "askAnswer": "{{name}}: {{answer}}",
+    "cancel": "Cancel",
+    "swapHandMode": "Pick {{count}} hand cards to swap.",
+    "swapHandConfirm": "Swap {{selected}}/{{count}}",
+    "zoom": "Zoom",
+    "watching": "You are watching.",
+    "howTo": "How do I pick cards?",
+    "themeCounts": "Submitted paintings: Theme A: {{A}} · Theme B: {{B}}",
+    "cardAssignment": "Assignment for picture {{card}}",
+    "cardBack": "Card back"
+  },
+  "helper": {
+    "title": "Helper cards",
+    "use": "Use",
+    "used": "Used – returns after a perfect round with {{number}} pictures",
+    "which": "Which theme card should be replaced?",
+    "both": "Both",
+    "plus": "+1 picture",
+    "minus": "−1 picture",
+    "swapThemes": {
+      "name": "Swap theme cards",
+      "desc": "Museum, before requesting: replace one or both theme cards."
+    },
+    "ask": {
+      "name": "Ask about a card",
+      "desc": "Museum, while sorting: ask whether a card comes from a painter."
+    },
+    "plusMinus": {
+      "name": "Count ±1",
+      "desc": "Painters, before anyone is done: raise or lower the requested number by 1."
+    },
+    "swapHand": {
+      "name": "Swap hand cards",
+      "desc": "Painters: swap 6 hand cards for 6 new ones from the pile."
+    }
+  },
+  "end": {
+    "won": "You won!",
+    "lost": "Wolfgatti wins!",
+    "score": "{{score}} points",
+    "reasonWolfgatti": "Wolfgatti smuggled 6 or more forgeries into the museum.",
+    "reasonPile": "The draw pile ran out.",
+    "needed": "You need at least 15 points to win.",
+    "backToLobby": "Back to lobby",
+    "waitHost": "The host can start a new game.",
+    "abort": "Abort game",
+    "abortConfirm": "Really abort the game and return to the lobby?"
+  },
+  "rating": {
+    "r30": "The museum’s golden age",
+    "r25": "An extraordinary collection",
+    "r20": "A gallery to be proud of",
+    "r15": "The exhibition is saved",
+    "r10": "Wolfgatti has the upper paw",
+    "r0": "Time for a fresh canvas"
+  },
+  "sidebar": {
+    "players": "Players",
+    "log": "History",
+    "claimSeat": "Take seat",
+    "offline": "offline",
+    "host": "Host",
+    "you": "you",
+    "cards_one": "{{count}} card",
+    "cards_other": "{{count}} cards"
+  },
+  "rules": {
+    "title": "Quick rules",
+    "close": "Close",
+    "p1": "Build an exhibition together while Wolfgatti, a mischievous wolf, slips in fakes. You take turns as elephant painters and peacock curators; the roles move one seat after each round.",
+    "p2": "Each round starts with two picture cards as themes. The curators request a total of 2–7 paintings for the exhibition. At this point, discuss the number only.",
+    "p3": "Painters choose cards from their hands and privately link each to a theme. Coordinate how many cards each person contributes. Describe the strength of a connection, never the picture itself.",
+    "p4": "Four random cards from the deck join the submissions as Wolfgatti’s fakes. Curators discuss the pictures, match the genuine ones to themes and reject exactly four cards. Painters stay silent.",
+    "p5": "A genuine painting earns the team one point only when its theme is correct. A fake accepted into the exhibition earns Wolfgatti one point. Rejected pictures earn neither side points.",
+    "p6": "The four shared helpers each offer one use. A round in which every genuine painting is correctly placed restores a spent helper when its number matches that round’s requested total.",
+    "p7": "The exhibition closes once Wolfgatti reaches six points, or the deck cannot supply another round. Your team wins with at least 15 points. Aim higher next time!",
+    "helpers": {
+      "usage": "The four helper cards belong to the whole team. Each card can be used once and is then spent for everyone, including in later rounds. If recovered, it can be used once again. Your role and the current phase determine which cards you can use. Available cards are highlighted during play.",
+      "swapThemes": "Before requesting paintings, curators can replace one or both theme cards with new ones from the pile. Replacing both themes still counts as a single use.",
+      "swapHand": "During selection, before marking themselves ready, one painter can exchange exactly {{count}} hand cards for new ones from the pile. If they hold fewer cards, they exchange all of them. Exchanged cards are removed from their selection, and all painters must confirm their readiness again.",
+      "plusMinus": "Painters can increase or decrease the total requested number of paintings by 1, provided no painter is ready yet. This also allows {{min}} or {{max}} paintings. The change applies to the whole team.",
+      "ask": "While sorting, curators can ask about a single card on the board. Each painter answers whether they submitted it. If everyone answers no, it is a forgery. The theme the painter intended remains hidden.",
+      "recoveryTitle": "Recovering helper cards",
+      "recovery": "A round is perfect when all genuine paintings are assigned to their intended theme and all four forgeries are rejected. The spent helper card whose number matches the requested painting count for that round then becomes available again. After Count ±1, the adjusted count is used. An unused card does not gain an extra use.",
+      "example": "Example: A perfect round with {{count}} requested paintings recovers the spent “{{helper}}” card. A helper card can be recovered multiple times during a game."
+    }
+  },
+  "example": {
+    "title": "Example: which cards fit a theme?",
+    "intro": "A theme is a starting point for an association, not a category with a fixed answer. Think about shapes, colours, uses and shared ideas. Your aim is to find a connection the curators can also discover.",
+    "themeA": "Laurel wreath – could mean: victory, award ceremony, antiquity, Rome, headwear, leaves …",
+    "themeB": "Elephant – could mean: big, heavy, grey, trunk, zoo, Africa, circus …",
+    "handTitle": "A painter holds these cards:",
+    "verdict": {
+      "good": "Fits well",
+      "ok": "Fits, with one step of thinking",
+      "risky": "Risky",
+      "no": "Doesn't fit – don't play it"
+    },
+    "hand": {
+      "trophy": "Trophy → theme A: winners get a wreath and a trophy. Very clear.",
+      "nose": "Nose → theme B: the trunk is the elephant's nose.",
+      "truck": "Truck → theme B: big and heavy, like an elephant.",
+      "italy": "Italy → theme A: laurel wreath → ancient Romans → Italy. Good if the museum thinks along.",
+      "mousetrap": "Mousetrap → theme B: “elephants are afraid of mice” – funny, but the museum might take it for a forgery.",
+      "coffee": "Coffee cup: no visible link to the wreath or the elephant. Better keep it in your hand."
+    },
+    "museumTitle": "What the museum sees next",
+    "museumText": "The curators see the painters' cards (e.g. trophy, nose, truck, Italy) mixed with four random forgeries like the ones above: scissors, rose, light bulb, alarm clock. Most forgeries fit nothing – but the rose is dangerous: flowers and leaves could belong to the wreath. For a card like that, the helper card “Ask about a card” helps.",
+    "tipsTitle": "Tips",
+    "tip1": "Painters: a few clear cards beat many vague ones. A card on the wrong theme scores nothing.",
+    "tip2": "Painters: “I have a very good card for A” is allowed. “I have the trophy” is not.",
+    "tip3": "Museum: for every card, ask yourselves: “What idea could a painter have had here?”",
+    "tip4": "Museum: request few pictures at first (2–4) and go higher when things go well."
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "err": {
+    "playerCount": "A game needs {{min}}–{{max}} players.",
+    "notSeated": "You are not seated at the table.",
+    "notDirector": "Only the curators may do that.",
+    "notPainter": "Only the painters may do that.",
+    "wrongPhase": "That is not possible right now.",
+    "helperUsed": "This helper card has already been used.",
+    "pileTooSmall": "The draw pile is too small for that.",
+    "invalid": "Invalid input.",
+    "invalidCount": "The number must be between {{min}} and {{max}}.",
+    "notEnoughCards": "The painters only have {{available}} hand cards in total.",
+    "adjustTooLate": "The number can only change before any painter is done.",
+    "alreadyReady": "You are already done.",
+    "swapCount": "Pick exactly {{count}} cards.",
+    "notInHand": "This card is not in your hand.",
+    "totalMismatch": "{{required}} pictures are requested, {{selected}} are selected.",
+    "notOnBoard": "This card is not on the table.",
+    "sortIncomplete": "Assign all cards first.",
+    "forgeryCount": "Set aside exactly {{count}} forgeries.",
+    "roomNotFound": "This room does not exist (anymore).",
+    "nameRequired": "Please enter a name.",
+    "notHost": "Only the host may do that.",
+    "gameRunning": "The game is already running.",
+    "seatTaken": "That player is still connected.",
+    "noGame": "No game is running.",
+    "notInRoom": "You are not in a room.",
+    "rateLimited": "Too many requests – please wait a moment.",
+    "wrongPassword": "Wrong server password.",
+    "server": "Server error – please try again.",
+    "connection": "No connection to the server.",
+    "playerOffline": "Offline players cannot be made host."
+  },
+  "log": {
+    "roundStart": "Round {{round}} begins.",
+    "themesSwapped_one": "{{player}} swapped one theme card.",
+    "themesSwapped_other": "{{player}} swapped both theme cards.",
+    "required": "{{player}} requests {{count}} pictures.",
+    "adjusted": "{{player}} changes the number from {{from}} to {{to}}.",
+    "handSwapped": "{{player}} swapped {{count}} hand cards.",
+    "forged": "Wolfgatti mixed in {{count}} forgeries.",
+    "asked": "{{player}} asked about a card: {{answer}}.",
+    "sorted": "{{player}} hung the exhibition.",
+    "result": "Result: team +{{team}}, Wolfgatti +{{wolfgatti}}.",
+    "recovered": "Helper card “{{helper}}” is back.",
+    "gameOver": "Game over with {{score}} points."
+  }
+}

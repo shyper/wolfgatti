@@ -1,0 +1,20 @@
+{
+  "asset": "p058",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-ecb9a14b-f6e0-4f28-92ad-e6cea503e609.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/variants/p058-v2.png",
+  "web": "assets/variants/p058-v2.webp",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "webSize": [
+    768,
+    768
+  ],
+  "prompt": "Use case: precise-object-edit. Change only the arrangement of these two red skis: make them CROSS in a clear X shape, one ski in front of the other at the central overlap. Both curved tips point upward to opposite upper corners; both tails point downward to opposite lower corners. Preserve two complete long skis, their red watercolor paint, dark ink outlines, gray/silver bindings and the existing hand-drawn Wolfgatti illustration style. Clearly separate the two skis except at their intentional crossing. Center the complete X-shaped pair with ample transparent padding. No ski poles, boots, people, snow, scene, floor, cast shadow, frame or text. Keep a genuine transparent alpha background and fully transparent spaces between the skis.",
+  "review": "superseded wide-crossing study"
+}

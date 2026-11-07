@@ -1,0 +1,24 @@
+{
+  "asset": "p058",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-fc4fde09-1288-4853-83c0-aa0b72de05f1.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/variants/p058-v3.png",
+  "web": "assets/variants/p058-v3.webp",
+  "masterSize": [
+    1024,
+    1536
+  ],
+  "webSize": [
+    512,
+    768
+  ],
+  "prompt": "Use case: precise-object-edit. Revise ONLY the positioning and slenderness of these two red skis. The current wide X is much too spread out. Make a very NARROW, ALMOST VERTICAL crossed pair: each ski tilted only about 7\u20139 degrees away from vertical (roughly 15 degrees total crossing angle, NOT 60 degrees). The skis overlap near the UPPER THIRD of their length, ABOVE the bindings. Their two curved tips sit very close together at the top, about one ski-width apart; their tails spread gently a little farther apart at the bottom. Overall pair width should be only about one quarter of its height. Long slender skis, each around 12 times longer than its width. Retain the same red hand-painted watercolor appearance, dark irregular ink outlines, and gray/silver bindings; bindings remain separately readable below the crossing. Two complete skis only, one in front at the overlap. No poles, boots, snow, people, scene, floor, shadow, text or frame. Center the tall narrow pair with generous transparent padding. Genuine alpha background including all spaces between the skis. This is a restrained narrow crossing, not a dramatic wide X.",
+  "review": "superseded elongated ski study",
+  "references": [
+    "assets/variants/p058-v2.png"
+  ],
+  "revisionReason": "User requested a much narrower crossing, closer to the original arrangement."
+}

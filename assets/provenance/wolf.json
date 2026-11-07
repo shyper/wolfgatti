@@ -1,0 +1,25 @@
+{
+  "asset": "wolf",
+  "kind": "character",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-4e142cdb-5d2f-42fa-b0e2-d25764c75f40.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/wolf.png",
+  "web": "packages/client/public/characters/wolf.webp",
+  "masterSize": [
+    1024,
+    1536
+  ],
+  "webSize": [
+    512,
+    768
+  ],
+  "prompt": "Use case: illustration-story. Create one original illustration for the associative game Wolfgatti. Input images are approved ORIGINAL Wolfgatti STYLE REFERENCES ONLY, not subjects to combine. Match their hand-drawn dark gently irregular ink contours, restrained watercolor washes, subtle pigment texture within colored shapes, warm approachable visual character and strong silhouette at small card size. Animals have the simplified friendly forms and minimal folds of the reference elephant, NOT naturalistic dense skin/fur rendering. Single complete centered subject with comfortable transparent padding. Genuine transparent alpha background including internal openings; no frame, background, floor, cast shadow, paper rectangle, lettering, watermark, or logo. No photorealism, 3D, scenery, or unrelated objects. SUBJECT: one anthropomorphic gray wolf, the mischievous art forger Wolfgatti, standing upright full body with pointed ears, elongated wolf muzzle, bushy tail and a clever friendly sly expression. Wearing a muted burgundy waistcoat over an ivory shirt with rolled sleeves and charcoal trousers, holding a single fine paintbrush with a small dab of red paint. Gray fur in broad simple watercolor shapes with minimal tufts, small expressive eyes. A charming trickster rather than a scary villain. No palette, canvas, scenery or additional characters.",
+  "review": "approved style study adopted for production",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

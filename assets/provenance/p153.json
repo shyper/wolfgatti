@@ -1,0 +1,25 @@
+{
+  "asset": "p153",
+  "kind": "motif",
+  "tool": "OpenAI built-in image_gen",
+  "generatedFile": "exec-7c91f18c-0f5c-45c2-b02e-29adba81854f.png",
+  "date": "2026-11-07",
+  "license": "MIT, to the extent rights can be granted",
+  "master": "assets/masters/p153.png",
+  "web": "packages/client/public/motifs/p153.webp",
+  "masterSize": [
+    1536,
+    1024
+  ],
+  "webSize": [
+    768,
+    512
+  ],
+  "prompt": "Use case: illustration-story. One original standalone Wolfgatti card motif in hand-drawn dark irregular ink outlines and soft watercolor washes. Match the approved simplified elephant, key and red pump style. Clearly recognizable silhouette, restrained detail, full subject with generous transparent padding. No frame, paper backdrop, environment, lettering, logo or shadow. Real transparent alpha. Do not add human facial features to objects or plants. Subject: One golden brass trumpet with a flared bell, coiled tubing, three valves and a mouthpiece.",
+  "review": "visually reviewed",
+  "validation": {
+    "visualReview": "passed",
+    "transparentAlpha": "passed",
+    "date": "2026-11-07"
+  }
+}

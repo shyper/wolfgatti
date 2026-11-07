@@ -1,0 +1,23 @@
+{
+  "asset": "card-background-gold-v1",
+  "kind": "card-background",
+  "tool": "OpenAI built-in image_gen",
+  "date": "2026-11-07",
+  "generatedFile": "exec-4deb1c82-dfe5-4468-b3f6-2a136cac5789.png",
+  "master": "assets/masters/card-background-gold-v1.png",
+  "web": "packages/client/public/card-backgrounds/gold-museum-v1.webp",
+  "prompt": "Use case: precise-object-edit. Edit the most recent approved Wolfgatti GOLD MUSEUM FRAME preview. Remove ONLY the red shoe motif from the interior, leaving a completely empty picture-card background. Fill the former shoe area by continuing the existing warm light ivory/pale ochre loosely brushed watercolor/gouache paper background seamlessly. Preserve the gold frame EXACTLY: same portrait proportions, same widths, stepped gold moulding, inner beaded border, small acanthus corner ornaments, highlights, patina, contours, and frontal view. Preserve the existing brushwork everywhere else. No shoe, no other object, no text, no wall, no new ornamentation, no nail. Keep the full frame visible with slim transparent margins. Genuine transparent alpha outside the outer frame; the interior must remain opaque light brushed paper. This is the reusable empty gold frame and painted background to put beneath separate transparent game motifs.",
+  "license": "MIT, to the extent rights can be granted",
+  "review": "owner-approved gold museum frame design; empty export visually inspected",
+  "references": [
+    "assets/masters/card-background-gold-preview-v1.png"
+  ],
+  "masterSize": [
+    1004,
+    1567
+  ],
+  "webSize": [
+    750,
+    1170
+  ]
+}

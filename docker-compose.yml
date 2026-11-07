@@ -1,0 +1,15 @@
+services:
+  wolfgatti:
+    image: ghcr.io/shyper/wolfgatti:latest
+    restart: unless-stopped
+    environment:
+      ROOM_TTL_MINUTES: ${ROOM_TTL_MINUTES:-120}
+      ACCESS_PASSWORD: ${ACCESS_PASSWORD:-}
+      TRUST_PROXY: ${TRUST_PROXY:-0}
+    volumes:
+      - wolfgatti-data:/app/data
+    ports:
+      - "${WOLFGATTI_PORT:-8080}:3000"
+
+volumes:
+  wolfgatti-data:
